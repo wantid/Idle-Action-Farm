@@ -19,7 +19,7 @@ public class CharacterController : MonoBehaviour
     {
         float maxInput = Mathf.Max(Mathf.Abs(joystick.Vertical), Mathf.Abs(joystick.Horizontal));
         Vector3 direction = Vector3.forward * joystick.Vertical + Vector3.right * joystick.Horizontal;
-        Vector3 fwd = Vector3.forward * maxInput;
+        Vector3 fwd = transform.forward * maxInput;
 
         animator.SetFloat("Speed", maxInput);
 
@@ -28,8 +28,8 @@ public class CharacterController : MonoBehaviour
             animator.ResetTrigger("Attack");
             scytheObject.SetActive(false);
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * rotationSpeed);
-        } 
-        transform.Translate(fwd * movementSpeed * Time.deltaTime);
+        }
+        rigidbody.velocity = fwd * movementSpeed;
     }
 
     private void OnTriggerStay(Collider other)

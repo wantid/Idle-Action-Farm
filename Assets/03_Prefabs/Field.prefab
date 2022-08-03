@@ -109,10 +109,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017447945817687 stripped
@@ -174,10 +170,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -241,10 +233,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017448092856364 stripped
@@ -306,10 +294,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -373,10 +357,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017447989623357 stripped
@@ -438,10 +418,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -505,10 +481,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017448150912582 stripped
@@ -570,10 +542,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -637,10 +605,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017448359743286 stripped
@@ -702,10 +666,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -769,10 +729,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017447571580672 stripped
@@ -834,10 +790,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -901,10 +853,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017447785673875 stripped
@@ -966,10 +914,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -1033,10 +977,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017448999077346 stripped
@@ -1098,10 +1038,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -1165,10 +1101,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017449184205484 stripped
@@ -1230,10 +1162,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -1297,10 +1225,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017449447321073 stripped
@@ -1362,10 +1286,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -1429,10 +1349,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017449315048219 stripped
@@ -1494,10 +1410,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
@@ -1561,10 +1473,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheat (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
 --- !u!4 &7645017448677023857 stripped
@@ -1626,10 +1534,6 @@ PrefabInstance:
     - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
       propertyPath: m_Name
       value: Wheat
-      objectReference: {fileID: 0}
-    - target: {fileID: 7741372460120893355, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ae5c859553de44e8c5d0f1781fac3e, type: 3}
