@@ -1,0 +1,21 @@
+# default
+
+Temp/
+Library/
+Logs/
+obj/
+Packages/
+UserSettings/
+.vs/
+
+# files
+
+*.vsconfig
+*.csproj
+*.sln
+*.meta
+*.bak
+*.sln
+*.asset
+.vsconfig
+*.backup
