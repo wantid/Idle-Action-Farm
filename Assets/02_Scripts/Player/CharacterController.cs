@@ -9,6 +9,7 @@ public class CharacterController : MonoBehaviour
     public float rotationSpeed;
 
     private Rigidbody rigidbody;
+    private float maxInput;
 
     private void Start()
     {
@@ -17,19 +18,29 @@ public class CharacterController : MonoBehaviour
 
     private void Update()
     {
-        float maxInput = Mathf.Max(Mathf.Abs(joystick.Vertical), Mathf.Abs(joystick.Horizontal));
+        maxInput = Mathf.Max(Mathf.Abs(joystick.Vertical), Mathf.Abs(joystick.Horizontal));
         Vector3 direction = Vector3.forward * joystick.Vertical + Vector3.right * joystick.Horizontal;
         Vector3 fwd = transform.forward * maxInput;
 
         animator.SetFloat("Speed", maxInput);
 
-        if (maxInput != 0 && direction != Vector3.zero)
+        if (maxInput > 0 && direction != Vector3.zero) 
+            rigidbody.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * rotationSpeed);
+        rigidbody.velocity = fwd * movementSpeed;
+    }
+
+    private void Attack()
+    {
+        if (maxInput > 0)
         {
             animator.ResetTrigger("Attack");
             scytheObject.SetActive(false);
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * rotationSpeed);
         }
-        rigidbody.velocity = fwd * movementSpeed;
+        else
+        {
+            scytheObject.SetActive(true);
+            animator.SetTrigger("Attack");
+        }
     }
 
     private void OnTriggerStay(Collider other)
@@ -37,8 +48,7 @@ public class CharacterController : MonoBehaviour
         switch (other.tag)
         {
             case "Wheat":
-                scytheObject.SetActive(true);
-                animator.SetTrigger("Attack");
+                Attack();
                 break;
             case "CutWheat":
                 other.GetComponent<CutWheat>().GoToStack();

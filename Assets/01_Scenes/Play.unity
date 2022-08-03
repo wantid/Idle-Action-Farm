@@ -453,6 +453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinUpriseValue: 15
   Canvas: {fileID: 406105934}
+  CoinsTransform: {fileID: 1493807849}
   cutwheatPrefab: {fileID: 7741372460120893355, guid: dc31566ac1365214fb9ffdb82ef0f98f, type: 3}
   coinPrefab: {fileID: 5606236402512132024, guid: 35cc9d87efbe68c4f89b4a273fd4027f, type: 3}
   coinsText: {fileID: 1493807850}
@@ -1276,7 +1277,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.34428936, y: -0.00000003230889, z: 0.000000011847949, w: 0.9388636}
+  m_LocalRotation: {x: 0.34428936, y: 0.00000003230889, z: -0.000000011847949, w: 0.9388636}
   m_LocalPosition: {x: 243, y: 45, z: 154}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2807,7 +2808,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129526652}
-  m_LocalRotation: {x: 0.34428936, y: -0.00000003230889, z: 0.000000011847949, w: 0.9388636}
+  m_LocalRotation: {x: 0.34428936, y: 0.00000003230889, z: -0.000000011847949, w: 0.9388636}
   m_LocalPosition: {x: 243, y: 45, z: 154}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
