@@ -8,6 +8,13 @@ public class CharacterController : MonoBehaviour
     public float movementSpeed;
     public float rotationSpeed;
 
+    private Rigidbody rigidbody;
+
+    private void Start()
+    {
+        rigidbody = GetComponent<Rigidbody>();
+    }
+
     private void Update()
     {
         float maxInput = Mathf.Max(Mathf.Abs(joystick.Vertical), Mathf.Abs(joystick.Horizontal));
