@@ -418,8 +418,8 @@ MonoBehaviour:
   joystick: {fileID: 0}
   animator: {fileID: 4420793877589228719}
   scytheObject: {fileID: 3764153397437710262}
-  movementSpeed: 15
-  rotationSpeed: 15
+  movementSpeed: 18
+  rotationSpeed: 20
 --- !u!114 &7412609960266710726
 MonoBehaviour:
   m_ObjectHideFlags: 0

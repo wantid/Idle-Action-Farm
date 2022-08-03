@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     public int coinUpriseValue;
     [Header("Scene Objects")]
     public RectTransform Canvas;
-    public RectTransform CoinsTransform;
     [Header("Prefabs")]
     public GameObject cutwheatPrefab;
     public GameObject coinPrefab;
