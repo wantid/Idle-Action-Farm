@@ -1,6 +1,7 @@
+using System.Collections;
 using UnityEngine;
 using TMPro;
-using System.Collections;
+using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {

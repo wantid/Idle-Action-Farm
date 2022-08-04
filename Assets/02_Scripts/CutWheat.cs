@@ -1,36 +1,28 @@
 using UnityEngine;
+using DG.Tweening;
 
 public class CutWheat : MonoBehaviour
 {
-    public float moveSpeed;
-    private int change;
-    private float speedMultiplier;
     private bool isReady;
+    private int change;
 
-    private Transform gotoTransform;
-
-    private void Update()
+    private void OnMovedCallback()
     {
-        if (isReady)
-        {
-            transform.position = Vector3.LerpUnclamped(transform.position, gotoTransform.position, speedMultiplier * moveSpeed * Time.deltaTime);
-            if (Vector3.Distance(transform.position, gotoTransform.position) < 3f) 
-            {
-                CharacterStats.instance.UpdateStack(change);
-                Destroy(gameObject); 
-            }
-        }
+        if (change > 0) CharacterStats.instance.UpdateStack(change);
+        Destroy(gameObject);
     }
 
     public void GoToStack()
     {
         if (!isReady && !CharacterStats.instance.StackIsFull())
         {
-            speedMultiplier = 1;
-            change = 1;
             isReady = true;
-            gotoTransform = CharacterStats.instance.stackParent;
+            change = 1;
             CharacterStats.instance.ChangeStack(1);
+
+            transform.DOMove(CharacterStats.instance.stackParent.position, .2f)
+                .SetEase(Ease.InOutQuint)
+                .OnComplete(OnMovedCallback);
         }
     }
 
@@ -38,10 +30,13 @@ public class CutWheat : MonoBehaviour
     {
         if (!isReady)
         {
-            speedMultiplier = .25f;
-            change = -1;
             isReady = true;
-            gotoTransform = _goTo;
+            change = -1;
+            CharacterStats.instance.UpdateStack(change);
+
+            transform.DOMove(_goTo.position, 1)
+                .SetEase(Ease.InOutQuint)
+                .OnComplete(OnMovedCallback);
         }
     }
 }

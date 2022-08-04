@@ -16,7 +16,7 @@ public class WheatSell : MonoBehaviour
         if (isReady && CharacterStats.instance.ChangeStack(-1))
         {
             isReady = false;
-            GameObject gameObject = Instantiate(GameManager.instance.cutwheatPrefab, playerPosition, Quaternion.identity);
+            GameObject gameObject = Instantiate(GameManager.instance.cutwheatPrefab, playerPosition + Vector3.up * 5, Quaternion.identity);
             gameObject.GetComponent<CutWheat>().GoToBarn(transform);
             StartCoroutine(Wait());
         }
