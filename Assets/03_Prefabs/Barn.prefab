@@ -780,6 +780,7 @@ GameObject:
   - component: {fileID: 9143538742426519633}
   - component: {fileID: 8287045242392836459}
   - component: {fileID: 3031186328584508210}
+  - component: {fileID: 4614520709835438056}
   m_Layer: 6
   m_Name: Barn
   m_TagString: Barn
@@ -814,7 +815,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d10e5fead58f7f449f10d9972706258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: 10, z: 0}
   delayToSell: 0.2
 --- !u!135 &3031186328584508210
 SphereCollider:
@@ -829,6 +829,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 70
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &4614520709835438056
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480190851294335723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 28, y: 25, z: 39.919983}
+  m_Center: {x: 0, y: 12.5, z: -14}
 --- !u!1 &8829169957238156141
 GameObject:
   m_ObjectHideFlags: 0
