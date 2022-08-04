@@ -451,13 +451,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc6390ae4c95fca4b9161cc8a33920fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 1
-  random: 0
-  strength: {x: 0, y: 0.1, z: 0}
-  vibrato: 10
-  fadeOut: 1
   coinUpriseValue: 15
   Canvas: {fileID: 406105934}
+  CoinsIcon: {fileID: 1154064130}
   cutwheatPrefab: {fileID: 7741372460120893355, guid: dc31566ac1365214fb9ffdb82ef0f98f, type: 3}
   coinPrefab: {fileID: 5606236402512132024, guid: 35cc9d87efbe68c4f89b4a273fd4027f, type: 3}
   coinsText: {fileID: 1493807850}
@@ -605,7 +601,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -200, y: 0}
-  m_SizeDelta: {x: -440, y: -40}
+  m_SizeDelta: {x: -500, y: -100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &338502619
 MonoBehaviour:
@@ -1474,7 +1470,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -200, y: 0}
-  m_SizeDelta: {x: -440, y: -40}
+  m_SizeDelta: {x: -500, y: -100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1154064131
 MonoBehaviour:

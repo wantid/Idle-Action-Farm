@@ -5,14 +5,11 @@ using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {
-    public float time, random;
-    public Vector3 strength;
-    public int vibrato;
-    public bool fadeOut;
     [Header("Variables")]
     public int coinUpriseValue;
     [Header("Scene Objects")]
     public RectTransform Canvas;
+    public RectTransform CoinsIcon;
     [Header("Prefabs")]
     public GameObject cutwheatPrefab;
     public GameObject coinPrefab;
@@ -42,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void CoinsUpdate()
     {
-        coinsText.GetComponent<RectTransform>().DOShakeScale(time, strength, vibrato, random, fadeOut);
+        coinsText.GetComponent<RectTransform>().DOShakeScale(1, Vector3.up * .05f, 10, 0);
         StartCoroutine(CoinCounter(coinUpriseValue));
     }
 

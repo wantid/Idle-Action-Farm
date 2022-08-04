@@ -15,7 +15,7 @@ public class Coin : MonoBehaviour
 
     private void Start()
     {
-        rectTransform.DOLocalMove(GameManager.instance.coinsText.GetComponent<RectTransform>().position, TimeToMove)
+        rectTransform.DOMove(GameManager.instance.CoinsIcon.position, TimeToMove)
             .SetEase(Ease.InOutQuint)
             .OnComplete(OnMoved);
     }
