@@ -5,6 +5,10 @@ using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {
+    public float time, random;
+    public Vector3 strength;
+    public int vibrato;
+    public bool fadeOut;
     [Header("Variables")]
     public int coinUpriseValue;
     [Header("Scene Objects")]
@@ -38,6 +42,7 @@ public class GameManager : MonoBehaviour
 
     public void CoinsUpdate()
     {
+        coinsText.GetComponent<RectTransform>().DOShakeScale(time, strength, vibrato, random, fadeOut);
         StartCoroutine(CoinCounter(coinUpriseValue));
     }
 
